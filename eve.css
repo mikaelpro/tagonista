@@ -1,0 +1,148 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #8dfce0;
+}
+body,div,ul,nav,header,footer,a,li,label{
+    margin: 0;
+    padding: 0;
+}
+.naa{
+    background-color: #8dfce0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.encabezado_robotico_logo img{
+    width: 120px;
+
+}
+.ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background-color: #8dfce0;
+    padding-top: 20px;
+}
+.fondo_robotico{
+    position: relative;
+    width:100vw;
+    height: calc(100vh - 50px);
+    z-index: -20;
+    margin-bottom:10px ;
+}
+.fondo_robotico img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.letra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(84, 32, 228);
+}
+.letra h1,h2,p{
+    text-align: center;
+    margin: 0%;
+}
+.letra h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.ver_mas{
+    background: linear-gradient(90deg, #14d8e6,#1b5dd6);
+    border-radius: 10px;
+    padding:10px 20px ;
+    font-size: 20px;
+    box-shadow: 2px 2px 20px #0000004f;
+}
+.robots{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+}
+.flex_galeria{
+    display: flex;
+    width: 80vw;
+    height: calc(100vh - 50px);
+    gap: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center
+}
+.galeria__tarjeta{
+    min-width: 300px;
+    height: 70%;
+    padding: 10px;
+    flex: 1 1 1;
+    background-color: #07bb52;
+}
+.galeria__tarjeta img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: center;
+}
+.galeria__tarjeta h3{
+    font-size: 25px;
+    text-align: center;
+}
+.galeria__tarjeta p{
+    color: #1b5dd6;
+}
+.ooo {
+    background-color: #2289ff;
+}
+.logo img{
+    width: 300px;
+}
+.pie_de_robot{
+    justify-content: center;
+    color: #30e4cc;
+}
+.grupo-2{
+    background-color: #8dfce0;
+    padding: 15px 10px;
+    text-align: center;
+    color: #000000;
+}
+.grupo-2 small{
+    font-size: 15px;
+    justify-content: center;
+}
+.red {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:480px)
+{
+    .ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 20px;
+        border-color: #1b5dd6;
+        border-radius: 10px;
+    }
+    .letra{
+        width: 80%;
+    }
+    .naa{
+        padding-bottom: 50px;
+    }
+}
